@@ -1,0 +1,17 @@
+{
+  "name": "ethiorestapi",
+  "version": "1.0.0",
+  "description": "rest api tutorial for me",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.12.3"
+  }
+}

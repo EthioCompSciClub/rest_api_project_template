@@ -1,0 +1,33 @@
+GET http://localhost:3000/products
+
+###
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name":"Iphone 11",
+    "price":1200
+}
+
+###
+
+GET http://localhost:3000/products/606cc4239305ebab6346edad
+
+###
+
+PATCH http://localhost:3000/products/606cc4239305ebab6346edad
+Content-Type: application/json
+
+{
+    "name":"Iphone 15"
+}
+
+###
+
+DELETE http://localhost:3000/products/606cc4219305ebab6346edac
+
+###
+
+DELETE http://localhost:3000/xyz
+
